@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['bacilo']
+
+roboflow:
+  workspace: syabar
+  project: y-2-tb-detection-2h5u4
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/syabar/y-2-tb-detection-2h5u4/dataset/2
